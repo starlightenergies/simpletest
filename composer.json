@@ -11,7 +11,7 @@
 			        }
 		      ],
 
-    "type": "test project",
+    "type": "library",
     "support": {"email":"admin@starlightenergies.com"},
     "require": {
    		         "php": ">=5.5.9",
