@@ -4,10 +4,10 @@
     "keywords": ["simple", "test", "repo","drupal8"],
     "license": "MIT",
 	"authors":  [ {
-            		"name": "James Danforth",
+            		"name": "Starlight Energies LLC",
             		"email": "admin@starlightenergies.com",
             		"homepage": "http://www.starlightenergies.com",
-            		"role": "Developer-CEO"
+            		"role": "Developer"
 			        }
 		      ],
 
@@ -22,7 +22,9 @@
                  "danielstjules/stringy": "~3.1.0",
                  "league/climate": "^3.2",
                  "doctrine/cache": "^1.6",
-                 "psr/container": "^1.0"
+                 "psr/container": "^1.0",
+		"starlightenergies/simpletest": "*"
+
     },
 
     "require-dev": {
