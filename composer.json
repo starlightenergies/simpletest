@@ -1,7 +1,7 @@
 {
-	"name": "starlightenergies/simpletest",
+	"name": "starlightenergies/template",
 	"description": "Simple Test Repo",
-    "keywords": ["simple", "test", "repo","drupal8"],
+    "keywords": ["simple", "test", "repo"],
     "license": "MIT",
 	"authors":  [ {
             		"name": "Starlight Energies LLC",
