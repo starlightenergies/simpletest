@@ -1,0 +1,38 @@
+{
+	"name": "starlightenergies/simpletest",
+	"description": "Simple Test Repo",
+    "keywords": ["simple", "test", "repo","drupal8"],
+    "license": "MIT",
+	"authors":  [ {
+            		"name": "James Danforth",
+            		"email": "admin@starlightenergies.com",
+            		"homepage": "http://www.starlightenergies.com",
+            		"role": "Developer-CEO"
+			        }
+		      ],
+
+    "type": "test project",
+    "support": {"email":"admin@starlightenergies.com"},
+    "require": {
+   		         "php": ">=5.5.9",
+                 "composer/composer": "^1.4",
+                 "easyrdf/easyrdf": "^0.9.1",
+                 "monolog/monolog": "^1.0",
+                 "php-school/cli-menu": "^2.0",
+                 "danielstjules/stringy": "~3.1.0",
+                 "league/climate": "^3.2",
+                 "doctrine/cache": "^1.6",
+                 "psr/container": "^1.0"
+
+    },
+
+    "require-dev": {
+		    	"psr/log": "~1.0",
+				"phpunit/phpunit":"^5.7",
+				"phpdocumentor/phpdocumentor": "2.*"
+    },
+
+    "autoload": {
+	    	"psr-4": {"JDapp\\Simpletest\\":"src/" }
+	}
+}
