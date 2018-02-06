@@ -28,8 +28,8 @@
 
     "require-dev": {
 		    	"psr/log": "~1.0",
-				"phpunit/phpunit":"^5.7",
-				"phpdocumentor/phpdocumentor": "2.*"
+				"phpunit/phpunit":"^5.7"
+
     },
 
     "autoload": {
