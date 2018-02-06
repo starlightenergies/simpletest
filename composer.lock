@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6fb355c97557e15d3269ffe3ec8f2f79",
+    "content-hash": "1cbb9330a3a763e8bb9598f4086a8301",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -990,6 +990,62 @@
                 "phra"
             ],
             "time": "2015-10-13T18:44:15+00:00"
+        },
+        {
+            "name": "starlightenergies/simpletest",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/starlightenergies/simpletest.git",
+                "reference": "a2f5c2cf6f19405680a5992c145c1aa3596d936a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/starlightenergies/simpletest/zipball/a2f5c2cf6f19405680a5992c145c1aa3596d936a",
+                "reference": "a2f5c2cf6f19405680a5992c145c1aa3596d936a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.4",
+                "danielstjules/stringy": "~3.1.0",
+                "doctrine/cache": "^1.6",
+                "easyrdf/easyrdf": "^0.9.1",
+                "league/climate": "^3.2",
+                "monolog/monolog": "^1.0",
+                "php": ">=5.5.9",
+                "php-school/cli-menu": "^2.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7",
+                "psr/log": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JDapp\\Simpletest\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Danforth",
+                    "email": "admin@starlightenergies.com",
+                    "homepage": "http://www.starlightenergies.com",
+                    "role": "Developer-CEO"
+                }
+            ],
+            "description": "Simple Test Repo",
+            "keywords": [
+                "Simple",
+                "drupal8",
+                "repo",
+                "test"
+            ],
+            "time": "2018-02-06T19:19:57+00:00"
         },
         {
             "name": "symfony/console",
