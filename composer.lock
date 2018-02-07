@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1cbb9330a3a763e8bb9598f4086a8301",
+    "content-hash": "5c736938989f0fc995800e18503b214e",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -993,16 +993,16 @@
         },
         {
             "name": "starlightenergies/simpletest",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/starlightenergies/simpletest.git",
-                "reference": "a2f5c2cf6f19405680a5992c145c1aa3596d936a"
+                "reference": "4ecb97428845c49a91e104205efa6918239c4633"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/starlightenergies/simpletest/zipball/a2f5c2cf6f19405680a5992c145c1aa3596d936a",
-                "reference": "a2f5c2cf6f19405680a5992c145c1aa3596d936a",
+                "url": "https://api.github.com/repos/starlightenergies/simpletest/zipball/4ecb97428845c49a91e104205efa6918239c4633",
+                "reference": "4ecb97428845c49a91e104205efa6918239c4633",
                 "shasum": ""
             },
             "require": {
@@ -1032,20 +1032,19 @@
             ],
             "authors": [
                 {
-                    "name": "James Danforth",
+                    "name": "Starlight Energies LLC",
                     "email": "admin@starlightenergies.com",
                     "homepage": "http://www.starlightenergies.com",
-                    "role": "Developer-CEO"
+                    "role": "Developer"
                 }
             ],
             "description": "Simple Test Repo",
             "keywords": [
                 "Simple",
-                "drupal8",
                 "repo",
                 "test"
             ],
-            "time": "2018-02-06T19:19:57+00:00"
+            "time": "2018-02-06T23:46:18+00:00"
         },
         {
             "name": "symfony/console",
